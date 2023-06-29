@@ -3,16 +3,12 @@ a { color: #000; }
 a:hover { color: #5c6a51; }
 
 
-
 /* -------------------------- LOGO -------------------------- */
 .D-Day-Logo { width: 90px; } 
 
 
-
 /* -------------------------- HOME PAGE IMAGE -------------------------- */
-.hp-img { max-width: 100%; }
-
-
+.hp-img {  width: 100%; } 
 
 
 /* -------------------------- PARAGRAPHS-------------------------- */
@@ -22,4 +18,90 @@ h2, h4, p {
 } 
 
 
-h2 { margin-top: 30px; }
+h2 { margin-top: 26px; }
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------- Footer */
+hr { 
+    width: 88%;
+    border-top: 1.2px solid #5c6a51;
+}
+
+
+.footer-bg { margin-top: 26px; }
+.followTxt { margin-bottom: 0;}
+
+.connect-with-me {
+    color: #5c6a51;;
+    text-align: left;
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+.social-media {
+    text-align: center; 
+    margin-bottom: 5px;
+}
+
+.social-media a {
+    color: #5c6a51;;
+    font-size: 25px;
+}
+
+.social-media a:hover { color: #000; }
+
+.WWRT {
+    font-size: medium;
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+
+
+
+.credits {
+    font-size: x-small;
+    margin-top: 18px;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------- Back to top button */
+
+/* The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* My Own Code */
+.back-to-top-button {
+    background: #5c6a51;
+    color: #fff;
+}
+
+.back-to-top-button:hover {
+    background: #000;
+    color: #fff;
+}
