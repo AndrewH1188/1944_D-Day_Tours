@@ -21,7 +21,7 @@ a:hover { color: #5c6a51; }
 .hp-img {  width: 100%; } 
 
 
-/* -------------------------- PARAGRAPHS-------------------------- */
+/* -------------------------- PARAGRAPHS -------------------------- */
 h2, h4, p { 
     color: #5c6a51;
     text-align: center;
@@ -29,6 +29,44 @@ h2, h4, p {
 
 
 h2 { margin-top: 26px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------- ERROR PAGE -------------------------- */
+
+.button404-text{
+    text-decoration: none;
+}
+
+.button404-text:hover{
+    text-decoration: none;
+}
+
+
+.error-page-bg { 
+    background-image: url('assets/images/web-images/poppy-field.jpg')no-repeat center;
+    background-size: cover;
+    height: 100vh; 
+}
+
+
+
+
+
+
+
+
 
 
 
