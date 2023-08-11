@@ -1,3 +1,13 @@
+/* -------------------------- NAV BAR -------------------------- */
+.navbar-nav {     
+    right: 20px;
+    position: absolute;
+} /* POSITIONS THE NAVBAR TO THE RIGHT */
+
+
+
+
+
 /* -------------------------- LINKS -------------------------- */
 a { color: #000; }
 a:hover { color: #5c6a51; }
